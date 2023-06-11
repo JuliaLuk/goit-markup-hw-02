@@ -1,0 +1,21 @@
+
+:root {
+    --main-color: #434455
+    --second-color: #4D5AE5
+    --title-color: #2E2F42
+    --white-color: #FFFFFF
+    --bg-color: #2E2F42
+    --second-bg-color: #F4F4FD;
+    
+
+}
+
+/* logo */
+.logo {
+    color: var(--title-color);
+    text-decoration: none;
+
+}
+.logo-blue {
+    color: var(--second-color);
+}
