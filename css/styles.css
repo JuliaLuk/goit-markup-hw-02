@@ -4,6 +4,7 @@
   --black-color: #2e2f42;
   --white-color: #ffffff;
   --second-bg-color: #f4f4fd;
+  --hover-focus-color: #404bbf;
 }
 
 body {
@@ -44,7 +45,7 @@ body {
 
 .site-nav a {
   color: var(--black-color);
-  text-decoration: none;
+
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -54,14 +55,13 @@ body {
 .link-current:focus,
 .address-nav-link:hover,
 .address-nav-link:focus {
-  color: #404bbf;
+  color: var(--hover-focus-color);
 }
 
 .address {
   font-style: normal;
 }
 .address-nav a {
-  text-decoration: none;
   color: var(--main-color);
 }
 .address-nav-link {
@@ -78,7 +78,8 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--white-color);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button {
@@ -87,11 +88,14 @@ body {
   font-size: 16px;
   color: var(--white-color);
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  color: var(--black-color);
+  color: var(--hover-focus-color);
 }
 
 /* section */
@@ -101,6 +105,10 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--black-color);
+  letter-spacing: 0.02em;
+}
+.li-text {
+  line-height: 1.5;
 }
 
 /* our activity */
@@ -111,9 +119,16 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--black-color);
+  text-align: center;
 }
 
 /* our team  */
+.team {
+  background-color: var(--second-bg-color);
+}
+.team-li {
+  background-color: var(--white-color);
+}
 
 /* footer */
 .footer {
@@ -121,4 +136,5 @@ body {
 }
 .footer-text {
   color: var(--second-bg-color);
+  line-height: 1.5;
 }
