@@ -95,7 +95,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--hover-focus-color);
+  background-color: var(--hover-focus-color);
 }
 
 /* section */
@@ -120,6 +120,7 @@ body {
   text-transform: capitalize;
   color: var(--black-color);
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* our team  */
