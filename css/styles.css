@@ -93,9 +93,25 @@ body {
   cursor: pointer;
 }
 
+.portfolio-button {
+  background-color: var(--second-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--second-color);
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
 .button:hover,
 .button:focus {
   background-color: var(--hover-focus-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--second-bg-color);
 }
 
 /* section */
@@ -138,4 +154,10 @@ body {
 .footer-text {
   color: var(--second-bg-color);
   line-height: 1.5;
+}
+
+/* style to portfolio */
+
+.portf-list {
+  text-decoration: none;
 }
