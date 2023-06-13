@@ -111,7 +111,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--hover-focus-color);
-  color: var(--second-bg-color);
+  color: var(--white-color);
 }
 
 /* section */
@@ -125,6 +125,7 @@ body {
 }
 .li-text {
   line-height: 1.5;
+  color: var(--main-color);
 }
 
 /* our activity */
